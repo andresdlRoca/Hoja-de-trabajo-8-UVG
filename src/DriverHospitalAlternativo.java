@@ -22,7 +22,7 @@ public class DriverHospitalAlternativo {
         PriorityQueue<Paciente> queue = new PriorityQueue<Paciente>();
         boolean run = true;
 
-        BufferedReader abc = new BufferedReader(new FileReader("C:\\Users\\Andre\\OneDrive\\Universidad\\Segundo año\\Segundo año - Primer Semestre\\Algoritmos y estructuras de datos\\Hojas de trabajo\\Hoja de trabajo 8\\src\\pacientes.txt"));
+        BufferedReader abc = new BufferedReader(new FileReader("pacientes.txt"));
         List<String> lines = new ArrayList<String>();
         String line = "";
         while((line = abc.readLine()) != null) {
