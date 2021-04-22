@@ -1,8 +1,8 @@
 /**
+ * Clase que se encarga de manejar la ficha del paciente
  * @author Andres de la Roca 20332
  * @version 21/04/2021
  * @since 21/04/2021
- * Clase que se encarga de manejar la ficha del paciente
  */
 public class Paciente implements Comparable<Object>{
 

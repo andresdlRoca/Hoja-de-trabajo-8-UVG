@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.*;
 
 /**
+ * Clase Driver que se encarga de correr el programa de manejo de pacientes.
  * @author Andres de la Roca 20332
  * @version 21/04/2021
  * @since 21/04/2021
- * Clase Driver que se encarga de correr el programa de manejo de pacientes.
  */
 public class DriverHospital {
 
