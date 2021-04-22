@@ -7,19 +7,19 @@ import java.util.*;
  * @author Andres de la Roca 20332
  * @version 21/04/2021
  * @since 21/04/2021
- * Clase Driver que se encarga de correr el programa de manejo de pacientes.
+ * Clase Driver alternativa que se encarga de correr el programa de manejo de pacientes.
  */
-public class DriverHospital {
+public class DriverHospitalAlternativo {
 
     /**
-     * Metodo main del Driver
+     * Metodo main del Driver alternativo.
      * @param args
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
 
         Scanner scan = new Scanner(System.in);
-        VectorHeap queue = new VectorHeap();
+        PriorityQueue<Paciente> queue = new PriorityQueue<Paciente>();
         boolean run = true;
 
         BufferedReader abc = new BufferedReader(new FileReader("C:\\Users\\Andre\\OneDrive\\Universidad\\Segundo año\\Segundo año - Primer Semestre\\Algoritmos y estructuras de datos\\Hojas de trabajo\\Hoja de trabajo 8\\src\\pacientes.txt"));
@@ -50,8 +50,13 @@ public class DriverHospital {
                 int eleccion = scan.nextInt();
 
                 if (eleccion == 1) {
-                    System.out.println(queue.getFirst());
-                    queue.remove();
+                    Paciente poll = queue.poll();
+                    if(poll == null) {
+                        System.out.println("Se ha acabado la lista.");
+                    } else {
+                        System.out.println(poll.toString());
+                    }
+
                 } else if (eleccion == 2) {
                     System.out.println("Hasta luego...");
                     run = false;
