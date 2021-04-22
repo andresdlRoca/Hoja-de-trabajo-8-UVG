@@ -1,0 +1,11 @@
+Andy Gong,Lesion en el gemelo,A
+Juan Perez,fractura de pierna,C
+Maria Ramirez,apendicitis,A
+Lorenzo Toledo,chikunguya,E
+Carmen Sarmientos,dolores de parto,B
+Sergio Ramos,Lesion en el tobillo,A
+Lionel Messi,Desgarre en la pierna,B
+Maria Antonieta,Fractura de dedo,C
+Mario Ramirez,Dolor de cabeza,D
+Selena Gomez,Dolor de pie,D
+Yelena Yaher,Dolor de cabeza,D
